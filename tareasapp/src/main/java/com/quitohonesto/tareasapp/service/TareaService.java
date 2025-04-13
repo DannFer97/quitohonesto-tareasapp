@@ -17,8 +17,6 @@ public class TareaService {
     @Autowired
     private TareaRepository tareaRepository;
 
-    @Autowired
-    private EntidadMunicipalService entidadMunicipalService;
 
     public List<Tarea> obtenerTareas() {
         return tareaRepository.findAll();
